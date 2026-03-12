@@ -13,7 +13,7 @@ public class Movimiento : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) 
         {
-            gameObject.transform.position += Vector3.forward;
+            gameObject.transform.position += Vector3.forward * Time.deltaTime;
         }
     }
 }

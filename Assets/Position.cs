@@ -17,7 +17,7 @@ public class Position : MonoBehaviour
     private void positionLogTrace() {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            print("The position in the X axis is: " + gameObject.transform.position.x
+            Debug.Log("The position in the X axis is: " + gameObject.transform.position.x
                 + "The position in the Y axis is: " + gameObject.transform.position.y
                 + "The position in the Z axis is: " + gameObject.transform.position.z);
         }

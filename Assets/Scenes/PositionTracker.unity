@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 621559817}
   - component: {fileID: 621559822}
   - component: {fileID: 621559823}
+  - component: {fileID: 621559824}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -271,6 +272,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abcdf93628f5424428caeaa18196e2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scaling
+--- !u!114 &621559824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621559816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304b6108223def44c88c7a9a7b78d1e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotation
 --- !u!1 &1076511427
 GameObject:
   m_ObjectHideFlags: 0
